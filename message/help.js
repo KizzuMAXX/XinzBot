@@ -1,6 +1,6 @@
 exports.menu = (prefix, i) => {
-    return `*Xinz Bot*
-Created by Xinz Team
+    return `*Kizzu Bot*
+Created by Kizzu Team
 
 *INFO*
 ${i.free} cekprefix
@@ -146,9 +146,9 @@ ${i.prem} : Fitur khusus premium user`
 
 exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushname, isOwner, isPremium, sisalimit, limitCount, glimit, gcount, expired, tanggal, jam) => {
     return `${ucapan.data.result} ${pushname}
-╒═══ 《 *${botName}* 》 ═══
+╒═══ 《 *${Hanns}* 》 ═══
 ├────────────────────
-├≽ *Creator : ${ownerName}*
+├≽ *Creator : ${Hanns}*
 ├≽ *Lib : Baileys V.3.5.1*
 ├≽ *Prefix : 「 ${prefix} 」*
 ├≽ *Total Fitur : 132+*
@@ -161,7 +161,7 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
 ╞═══ 《 *USER INFO* 》 ═══
 ├────────────────────
 ├≽ *Name* : *${pushname}*
-├≽ *Status* : *${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
+├≽ *Status* : *${isOwner ? 'Hanns' : isPremium ? 'Premium' : 'Gratisan'}*
 ├≽ *Limit* : *${isPremium ? 'Unlimited' : `${sisalimit}/${limitCount}`}*
 ├≽ *Limit Game* : *${isOwner ? 'Unlimited' : `${glimit}/${gcount}`}*
 ├≽ *Expired Prem : ${isOwner ? '-' : isPremium ? expired : 'Not Premium'}*
@@ -441,5 +441,5 @@ exports.storageMenu = (prefix, ownerName) => {
 ├≽ *${prefix}sound6*
 ├≽ *${prefix}sound7*
 ├─────────────────────
-╘═══ 《 *By ${ownerName}* 》 ═══`
+╘═══ 《 *By ${HANNS}* 》 ═══`
 }
